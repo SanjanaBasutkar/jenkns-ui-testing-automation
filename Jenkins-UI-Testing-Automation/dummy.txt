@@ -1,0 +1,16 @@
+Current file  structure hai ye 
+
+├── pages/
+│ ├── NodeJavaVersionJobPage.py # Node version job page
+│ ├── PluginTestJobPage.py # Plugin test job page
+│ └── PromoteArtifactPage.py # Artifact promotion job page
+├── tests/
+│ ├── test_00_login.py # Login test
+│ ├── test_01_node_java_version.py # Node job test
+│ ├── test_02_plugin_test.py # Plugin test job
+│ ├── test_03_promote_artifact.py # Artifact promotion
+│ ├── test_04_manage_jenkins.py # Manage Jenkins validation
+│ └── test_05_plugin_manager_failed_load.py # Plugin load error check
+├── conftest.py # Shared fixtures and CLI args
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
